@@ -35,9 +35,16 @@ FROM wbh.chart_data
 GROUP BY `Traffic source`
 ORDER BY 2;
 
--- View count in DESC order
+-- View count in DESC order grouped by Date
 SELECT `Date`, SUM(`Views`)
 FROM wbh.chart_data
 GROUP BY Date 
 ORDER BY 2 DESC;
+
+-- view date. 11/11/22 and 11/12/22 to see any
+-- relavence to tictok high views on those days
+-- but no relavence
+SELECT *, `date`
+FROM wbh.chart_data
+WHERE `Date` = '2022-11-12';
 
