@@ -2,34 +2,74 @@
 -- SELECT COUNT(*)
 -- FROM wbh.chart_data;
 
+-- Converting the column date in total table from text type to date type
+-- UPDATE wbh.total_table
+-- set date = str_to_date(`Date`, '%Y-%m-%d')
+-- WHERE `index` > -1;
+
+-- ALTER TABLE wbh.total_table
+-- MODIFY COLUMN Date date;
+
+-- Converting the column date in chart data from text type to date type
+-- UPDATE wbh.chart_data
+-- set date = str_to_date(`Date`, '%Y-%m-%d')
+-- WHERE `index` > -1;
+
+-- ALTER TABLE wbh.chart_data
+-- MODIFY COLUMN Date date;
+
+
+/*
+Coverting impressions column into int
+*/
+-- UPDATE wbh.table_data
+-- set Impressions = convert(Impressions, signed);
+
+-- ALTER TABLE wbh.table_data
+-- MODIFY COLUMN `Impressions` int;
+
+/*
+Replace blanks or nulls with a 0 value and up date the table
+*/
+
+SELECT Count(`Impressions_click-through_rate(%)`)
+FROM wbh.table_data
+where `Impressions_click-through_rate(%)` = '';
+
+UPDATE wbh.table_data
+SET `Impressions_click-through_rate(%)` = 0
+WHERE `Impressions_click-through_rate(%)` = '';
+
+
+UPDATE wbh.table_data
+SET `Impressions` = 0
+WHERE `Impressions` = '';
+
+
+-- count total columns
 SELECT COUNT(*)
 FROM wbh.table_data;
 
 -- table data ordered by Views column
 SELECT *
 FROM wbh.table_data
-ORDER BY 2;
+ORDER BY 2 DESC;
 
 -- chart data ordered by Date column
 SELECT *
 FROM wbh.chart_data
-ORDER BY 1;
+ORDER BY 4 DESC;
 
 -- Total views in chart data = '24299'.
 SELECT sum(views) AS total_views
 FROM wbh.chart_data;
 
--- Total views in table data = '24299'.
-SELECT sum(views) AS total_views
-FROM wbh.table_data;
 
 -- Total impressions = '443558'
 SELECT sum(Impressions) AS total_Impressions
 FROM wbh.table_data;
 
 -- sum of views grouped by traffic source in chart data 
--- to confirm they match table data traffic source view
--- Yay! they match.
 SELECT `Traffic source`, sum(views) AS total_views
 FROM wbh.chart_data
 GROUP BY `Traffic source`
@@ -44,7 +84,49 @@ ORDER BY 2 DESC;
 -- view date. 11/11/22 and 11/12/22 to see any
 -- relavence to tictok high views on those days
 -- but no relavence
-SELECT *, `date`
+SELECT *
 FROM wbh.chart_data
-WHERE `Date` = '2022-11-12';
+WHERE `Date` = '2022-11-11' OR `Date` = '2022-11-12'
+ORDER BY 2;
+
+
+/*
+I want to see what the traffic source was most prevalent during 11/11 and 11/12
+*/
+
+SELECT Date, `Traffic source`, sum(Views)
+FROM wbh.chart_data
+WHERE `Traffic source` = 'Suggested videos' AND Date = '2020-11-11';
+
+/*
+Checking Impressions data
+*/
+SELECT *
+From wbh.table_data;
+
+-- in desc order of impressions
+SELECT *
+From wbh.table_data
+WHERE Impressions > 0 
+order by 5 desc;
+
+
+SELECT *
+From wbh.table_data
+WHERE `Impressions_click-through_rate(%)` > 0 
+order by 6 desc;
+
+
+-- total of impressions count
+SELECT SUM(Impressions) as total
+From wbh.table_data;
+
+
+/*
+Checking total views on total table
+*/
+SELECT SUM(VIEWS)
+FROM total_table;
+
+
 
