@@ -99,7 +99,7 @@ FROM wbh.chart_data
 WHERE `Traffic source` = 'Suggested videos' AND Date = '2020-11-11';
 
 /*
-Checking Impressions data
+Checking Impressions data from table data 
 */
 SELECT *
 From wbh.table_data;
@@ -110,7 +110,7 @@ From wbh.table_data
 WHERE Impressions > 0 
 order by 5 desc;
 
-
+-- 
 SELECT *
 From wbh.table_data
 WHERE `Impressions_click-through_rate(%)` > 0 
@@ -122,11 +122,7 @@ SELECT SUM(Impressions) as total
 From wbh.table_data;
 
 
-/*
-Checking total views on total table
-*/
-SELECT SUM(VIEWS)
-FROM total_table;
+
 
 
 
