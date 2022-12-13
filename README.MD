@@ -1,8 +1,20 @@
 
 # YouTube’s Traffic Source Analysis for Whole Brain Health
+<br>
 
-### In this group project, I was tasked with analyzing the traffic source data from Whole Brain Health's YouTube channel. 
+> In this group project, I was tasked with analyzing the traffic source data from Whole Brain Health's YouTube channel.
+> Whole Brain Health is a non-profit organization that combines behavioral change principles with the neuroscience pertaining to brain optimization. With cognitive health programs that are designed to keep the brain healthy and boost moods. They offer virtual brain health programs where one can join group activities and exercises in a safe, welcoming environment. They use interactive live classes with mind stimulating activities and brain games to boost brain power, while utilizing social platforms like YouTube and TikTok.
 
+<br>
+
+<img width="1142" alt="Screen Shot 2022-12-12 at 8 31 27 PM" src="https://user-images.githubusercontent.com/114799503/207227143-0c041821-0c10-449b-996b-60796134997d.png">
+
+<img width="1142" alt="Screen Shot 2022-12-12 at 8 34 15 PM" src="https://user-images.githubusercontent.com/114799503/207227507-acf3db95-146a-4884-83c1-610270e8a146.png">
+
+<img width="1142" alt="Screen Shot 2022-12-12 at 8 35 34 PM" src="https://user-images.githubusercontent.com/114799503/207227668-c87c2016-c12f-4e8a-b368-e3cb3703ea9b.png">
+
+<br>
+<br>
 I received data from a total of 13 traffic sources, however, due to the extremely low percentage of views from End screens, Video cards and Annotations, which were less then .008%, I went ahead and removed them from our analysis. Leaving us with a total of 11 traffic sources to work with. 
 
 <img width="1142" alt="visual0" src="https://user-images.githubusercontent.com/114799503/206887697-c31f6f89-44c4-441a-92f7-bc19e906cb4d.png">
@@ -82,6 +94,7 @@ The traffic sources with the least impressions (under 1,000 impressions):
 <img width="1142" alt="visual9" src="https://user-images.githubusercontent.com/114799503/207197788-b6559d3b-2ef5-4811-8281-b49dfb59fcac.png">
 
 ### And lastly, I wanted to give a brief overview of the percentages from Whole Brain Health's YouTube channel's click through rate. 
+**A high CTR is a good indication your thumbnails and keywords are generally effective.
 
  The YouTube search traffic source, had the highest click-through rate with 8% followed by channel pages and playlists. 
 
@@ -101,9 +114,7 @@ I also wanted to mention that although suggested videos may have a 2% CTR, accor
 * YouTube search traffic source, had the highest click-through rate with 8%.
 
 
-#### Side Notes
-“Suggested videos” is when a video appears in the YouTube sidebar on any watch page.
+#### Resources
+* [YouTube Help Support Page](https://support.google.com/youtube/answer/9314355?hl=en#zippy=%2Ctraffic-from-within-youtube%2Ctraffic-from-external-sources)
 
-"Direct or Unknown" which are Traffic Sources from direct URL entry, bookmarks, signed out viewers, and unidentified apps
 
-"External" which sources represent people who found your video through a search engine, social media, or other websites,
