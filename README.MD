@@ -1,12 +1,11 @@
-<img width="1142" alt="Screen Shot 2022-12-13 at 6 22 34 PM" src="https://user-images.githubusercontent.com/114799503/207489678-5ff39a85-cdce-449d-ba86-7711fd133b3e.png">
+# YouTube’s Traffic Source Analysis for Client Project
+### This was part of a client project for COOP. I was tasked with analyzing the traffic source data from client's YouTube channel.
 
-# YouTube’s Traffic Source Analysis for Whole Brain Health
-### This was part of a client project for COOP. I was tasked with analyzing the traffic source data from Whole Brain Health's YouTube channel.
-[Whole Brain Health](https://www.wholebrainhealth.org/) is a non-profit organization that combines behavioral change principles with the neuroscience pertaining to brain optimization.They offer virtual brain health programs where one can join group activities and exercises in a safe, welcoming environment. They use interactive live classes with mind stimulating activities and brain games to boost brain power, while utilizing social platforms like YouTube and TikTok.
+A non-profit organization that combines behavioral change principles with the neuroscience pertaining to brain optimization. They use interactive live classes with mind stimulating activities and brain games to boost brain power, while utilizing social platforms like YouTube and TikTok.
 <br>
 <br>
 > ## Objective
-> To identify the most valuable sources of traffic and increase the amount of views from Whole Brain Health's YouTube channel.
+> To identify the most valuable sources of traffic and increase the amount of views from client's YouTube channel.
 <br>
 
 ## PROCESS
@@ -114,7 +113,7 @@ I wanted to give a quick monthly overview of top traffic sources' total referred
 
 <br>
 
-#### Whole Brain Health's YouTube channel's traffic sources with the highest percentage of views compared to impressions:
+#### Our client's YouTube channel's traffic sources with the highest percentage of views compared to impressions:
 * YouTube search traffic source with 1,677 views and 17,125 impressions.
 * Channel pages traffic source with 723 views and 11,160 impressions.
 
@@ -128,7 +127,7 @@ I wanted to give a quick monthly overview of top traffic sources' total referred
 
 <img width="1142" alt="visual9" src="https://user-images.githubusercontent.com/114799503/207197788-b6559d3b-2ef5-4811-8281-b49dfb59fcac.png">
 
-### And lastly, I wanted to give a brief overview of the percentages from Whole Brain Health's YouTube channel's click through rate. 
+### And lastly, I wanted to give a brief overview of the percentages from our client's YouTube channel's click through rate. 
 <sub>A high CTR is a good indication that the thumbnails and keywords are generally effective.</sub>
 
 <br>
