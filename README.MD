@@ -1,7 +1,7 @@
 <img width="1142" alt="Screen Shot 2022-12-13 at 6 22 34 PM" src="https://user-images.githubusercontent.com/114799503/207489678-5ff39a85-cdce-449d-ba86-7711fd133b3e.png">
 
 # YouTube’s Traffic Source Analysis for Whole Brain Health
-### This was part of a group project for COOP. I was tasked with analyzing the traffic source data from Whole Brain Health's YouTube channel.
+### This was part of a client project for COOP. I was tasked with analyzing the traffic source data from Whole Brain Health's YouTube channel.
 [Whole Brain Health](https://www.wholebrainhealth.org/) is a non-profit organization that combines behavioral change principles with the neuroscience pertaining to brain optimization.They offer virtual brain health programs where one can join group activities and exercises in a safe, welcoming environment. They use interactive live classes with mind stimulating activities and brain games to boost brain power, while utilizing social platforms like YouTube and TikTok.
 <br>
 <br>
