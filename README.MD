@@ -137,7 +137,7 @@ I also wanted to mention that although suggested videos may have a 2% CTR, accor
 * Suggested Videos traffic source accounts for 63% of referred views with over 15k views from total views between 2020 - 2022. 
 * Notifications traffic source had the least amount of referred views with 21 views from total views between 2020 - 2022.
 * Year 2022 had the highest rate of engagement with 16,000 views from all traffic sources.
-* February had the highest increasae views in each year.
+* February had the highest increase views in each year.
 * Most impressions are seen through the suggested videos' traffic source with over 300k impressions.
 * The traffic source with the least amount of impressions was playlists traffic source with 47 views and 447 impressions.
 * YouTube search traffic source, had the highest click-through rate with 8%.
