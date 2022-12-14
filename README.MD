@@ -18,7 +18,7 @@ A non-profit organization that combines behavioral change principles with the ne
 7.	Summary
 <br>
 
-## Technologies
+## TECHNOLOGIES
 * Excel
 * Sql/Mysql
 * Python
