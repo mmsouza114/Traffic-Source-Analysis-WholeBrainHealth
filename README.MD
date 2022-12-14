@@ -1,3 +1,4 @@
+<img width="1142" alt="Screen Shot 2022-12-13 at 6 22 34 PM" src="https://user-images.githubusercontent.com/114799503/207489678-5ff39a85-cdce-449d-ba86-7711fd133b3e.png">
 
 # YouTube’s Traffic Source Analysis for Whole Brain Health
 ### This was part of a group project for COOP. I was tasked with analyzing the traffic source data from Whole Brain Health's YouTube channel.
@@ -17,6 +18,14 @@
 6.	Share results
 7.	Summary
 <br>
+
+## Technologies
+* Excel
+* Sql/Mysql
+* Python
+* Jupyter Notebook
+* Pandas
+* Tableau
 
 #### **Note
 A description of each possible traffic source from [YouTube Help support page](https://support.google.com/youtube/answer/9314355?hl=en#zippy=%2Ctraffic-from-within-youtube%2Ctraffic-from-external-sources) and other important information.
