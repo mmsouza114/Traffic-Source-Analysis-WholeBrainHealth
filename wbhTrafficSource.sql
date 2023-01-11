@@ -1,32 +1,32 @@
 -- Count how many rows am I working with in chart table which is 10439. 
--- SELECT COUNT(*)
--- FROM wbh.chart_data;
+SELECT COUNT(*)
+FROM wbh.chart_data;
 
 -- Converting the column date in total table from text type to date type
--- UPDATE wbh.total_table
--- set date = str_to_date(`Date`, '%Y-%m-%d')
--- WHERE `index` > -1;
+UPDATE wbh.total_table
+set date = str_to_date(`Date`, '%Y-%m-%d')
+WHERE `index` > -1;
 
--- ALTER TABLE wbh.total_table
--- MODIFY COLUMN Date date;
+ALTER TABLE wbh.total_table
+MODIFY COLUMN Date date;
 
 -- Converting the column date in chart data from text type to date type
--- UPDATE wbh.chart_data
--- set date = str_to_date(`Date`, '%Y-%m-%d')
--- WHERE `index` > -1;
+UPDATE wbh.chart_data
+set date = str_to_date(`Date`, '%Y-%m-%d')
+WHERE `index` > -1;
 
--- ALTER TABLE wbh.chart_data
--- MODIFY COLUMN Date date;
+ALTER TABLE wbh.chart_data
+MODIFY COLUMN Date date;
 
 
 /*
 Coverting impressions column into int
 */
--- UPDATE wbh.table_data
--- set Impressions = convert(Impressions, signed);
+UPDATE wbh.table_data
+set Impressions = convert(Impressions, signed);
 
--- ALTER TABLE wbh.table_data
--- MODIFY COLUMN `Impressions` int;
+ALTER TABLE wbh.table_data
+MODIFY COLUMN `Impressions` int;
 
 /*
 Replace blanks or nulls with a 0 value and up date the table
@@ -81,9 +81,10 @@ FROM wbh.chart_data
 GROUP BY Date 
 ORDER BY 2 DESC;
 
--- view date. 11/11/22 and 11/12/22 to see any
--- relavence to tictok high views on those days
--- but no relavence
+/* View date 11/11/22 and 11/12/22 to see any
+relavence to tictok high views on those days
+but no relavence */
+
 SELECT *
 FROM wbh.chart_data
 WHERE `Date` = '2022-11-11' OR `Date` = '2022-11-12'
@@ -104,20 +105,20 @@ Checking Impressions data from table data
 SELECT *
 From wbh.table_data;
 
--- in desc order of impressions
+-- Impressions in desc order 
 SELECT *
 From wbh.table_data
 WHERE Impressions > 0 
 order by 5 desc;
 
--- 
+-- Percentage of Impressions_click-through_rate(%) in desc order
 SELECT *
 From wbh.table_data
 WHERE `Impressions_click-through_rate(%)` > 0 
 order by 6 desc;
 
 
--- total of impressions count
+-- Total of impressions count
 SELECT SUM(Impressions) as total
 From wbh.table_data;
 
