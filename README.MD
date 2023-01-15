@@ -21,9 +21,6 @@ A non-profit organization that combines behavioral change principles with the ne
 ## TECHNOLOGIES
 * Excel
 * Sql/Mysql
-* Python
-* Jupyter Notebook
-* Pandas
 * Tableau
 
 #### **Note
